@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'general';
+@import 'nav';
+@import 'landing';
+
+@media (max-width: 767px) {
+    @import 'mobile';
+}
+  
+@media (min-width: 768px) {
+    @import 'desktop';
+}

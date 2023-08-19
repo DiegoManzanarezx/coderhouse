@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesión</title>
+    <title>Iniciar sesión - Virtual Reality México</title>
+    <meta name="description" content="Inicia sesión en Virtual Reality México para acceder a tu cuenta.">
+
     <link rel="stylesheet" href="../css/styles.css">
-    <!-- Incluir la librería de Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #201c1c;">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="../img/logo.png" alt="logo">
+                    <img src="../img/logo.png" alt="logo" class="img-fluid">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,32 +47,39 @@
     </header>
 
     <main>
-        <h1>Login</h1>
-        <p>Para una mejor experiencia, por favor, inicia sesión:</p>
-        <div class="login-container">
-            <h1>Inicia sesión</h1>
-            <h3>* Ingresa tus credenciales</h3>
-            <br><br>
-            <form class="login-form">
-                <div class="input-container">
-                    <label for="username">Usuario:</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div class="input-container">
-                    <label for="password">Contraseña:</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
+        <div class="container landing-container">
+            <h1 class="text-center mt-5">Login</h1>
+            <p class="text-center">Para una mejor experiencia, por favor, inicia sesión:</p>
+            <div class="login-container">
+                <h1>Inicia sesión</h1>
+                <h3>* Ingresa tus credenciales</h3>
                 <br><br>
-                <button type="submit">Iniciar sesión</button>
-            </form>
+                <form class="login-form">
+                    <div class="input-container">
+                        <label for="username">Usuario:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <br><br>
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+            </div>
         </div>
     </main>
 
-    <footer>
-        <p>Virtual Reality Mexico &copy; 2023</p>
+    <footer class="mt-5">
+        <div class="container">
+            <p class="text-center">Virtual Reality Mexico &copy; 2023</p>
+        </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

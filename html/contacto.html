@@ -4,17 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contacto - Virtual Reality México</title>
+    <meta name="description" content="Contacta con Virtual Reality México a través de nuestro formulario de contacto.">
+
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #201c1c;">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="../img/logo.png" alt="logo">
+                    <img src="../img/logo.png" alt="logo" class="img-fluid">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,31 +47,36 @@
     </header>
 
     <main>
-        <h1>Contacto</h1>
-        <p>Puedes contactarnos a través del siguiente formulario:</p>
-        <div class="contact-form">
-            <form>
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
+        <div class="container landing-container">
+            <h1 class="text-center">Contacto</h1>
+            <p class="text-center">Puedes contactarnos a través del siguiente formulario:</p>
+            <div class="contact-form">
+                <form>
+                    <label for="name" style="color: black;">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
 
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email" style="color: black;" >Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="message" style="color: black;">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
 
-                <button type="submit">Enviar mensaje</button>
-            </form>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
         </div>
     </main>
 
-    <footer>
-        <p>Virtual Reality Mexico &copy; 2023</p>
+    <footer class="mt-5">
+        <div class="container">
+            <p class="text-center">Virtual Reality Mexico &copy; 2023</p>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
